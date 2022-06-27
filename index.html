@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="numeros.png" type="image/x-icon">
+  <title>Document</title>
+</head>
+<body onclick="evento()">
+
+ <main>
+
+    <section class="display-contagem">
+      
+      <p>
+        Contagem
+      </p>
+      
+      <P class="numero-contagem" id="contagem">
+        
+      </P>
+      
+    </section>
+
+    <section class="buttons">
+      
+    <button id="menos" onclick="menos()"> decrease </button>
+    <button id="reset" onclick="reset()"> reset </button>
+    <button id="mais" onclick="mais()"> increase </button>
+      
+    </section>
+   
+  </main>
+
+  <script src="logica.js"></script>
+  
+</body>
+</html>
