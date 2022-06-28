@@ -9,9 +9,9 @@
 </head>
 <body onclick="evento()">
 
- <main>
+   <main id="main">
 
-    <section class="display-contagem">
+    <section class="display-contagem" id='display-contagem'>
       
       <p>
         Contagem
@@ -30,9 +30,17 @@
     <button id="mais" onclick="mais()"> increase </button>
       
     </section>
+
+    <footer>
+      <p>Darck Mode</p>
+      <label class="switch">
+      <input type="checkbox" id="checkbox" >
+      <span class="slider"></span>
+    </label>
+    </footer>
    
   </main>
-
+ 
   <script src="logica.js"></script>
   
 </body>

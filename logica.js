@@ -1,5 +1,5 @@
 var numero = 0
-
+let checkbox = document.getElementById("checkbox");
 
 function mais() {
 
@@ -27,7 +27,17 @@ function evento() {
   } if (numero > 0) {
     document.getElementById("contagem").style.color = "#1ba4ff";
   } if(numero == 0){
-    document.getElementById("contagem").style.color = "#000000";
+  
+    if(checkbox.checked) {
+      document.body.style.backgroundColor = "#152238";
+      document.getElementById("main").style.color = "#f5f5f5";
+      document.getElementById("contagem").style.color = "#f5f5f5";
+    
+    } else {
+      document.body.style.backgroundColor = "#C0DAEB";
+      document.getElementById("main").style.color = "#000000";
+      document.getElementById("contagem").style.color = "#000000";
+    }
   } 
-
+  
 }
