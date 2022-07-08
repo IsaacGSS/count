@@ -79,9 +79,4 @@ footer p{
     display: flex;
     flex-direction: column-reverse;
   }
-
-  button{
-    margin: 0.25em;
-    width: 250px;
-  }
 }
