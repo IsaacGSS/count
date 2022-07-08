@@ -11,7 +11,7 @@ function tame() {
     document.body.style.backgroundColor = "#C0DAEB";
     document.getElementById("main").style.color = "#000000";
     document.getElementById("contagem").style.color = "#000000";
-  } else if(hora > 18 && hora < 6) {
+  } else {
     document.body.style.backgroundColor = "#152238";
     document.getElementById("main").style.color = "#f5f5f5";
     document.getElementById("contagem").style.color = "#f5f5f5";
@@ -49,3 +49,4 @@ function evento() {
     document.getElementById("contagem").style.color = "#1ba4ff";
   }  
 }
+
