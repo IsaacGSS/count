@@ -10,10 +10,10 @@ um contador que alteram a cor com base em números positivos ou negativos que s�
 
 ## Funcionalidades
 
-* <code>button</code>  que <strong>Almente</strong> e/ou <strong>Diminue</strong>;
-* Conforme a contagem 🔴aumenta ou 🔵diminui a color muda;
+* <code>&lt;button/&gt;</code>  que <strong>aumente</strong> e/ou <strong>diminue</strong>;
+* A cor do contador muda Conforme a contagem aumenta🔴 ou diminui🔵;
 * Dependente do horario que estiver acessando o site ele muda de tema 🌙/🌞;
-* Responsabilidade 📱;
+* Responsividade 📱;
 
 ## preview
  <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b090cac2-5585-4447-8dc4-09f9523d60d6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220709%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220709T202012Z&X-Amz-Expires=86400&X-Amz-Signature=fa2efffa4f6c635d03ca6cc95566070334ecb72605e66342f493cb3cb9f202e6&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" title="theme Lite WebComputer" > <br/>
