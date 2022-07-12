@@ -12,7 +12,7 @@
 
 > * <code>&lt;button/&gt;</code>  que <strong>aumente</strong> e/ou <strong>diminue</strong>;
 > * A cor do contador muda Conforme a contagem aumenta🔴 ou diminui🔵;
-> * Dependente do horario que estiver acessando o site ele muda de tema 🌙/🌞;
+> * Dependente do horario que estiver acessando o site ele muda de tema 🌙/🌞; <br/> <code>[ new Date() | .getHours() ]</code>
 > * Responsividade 📱;
 
 ## 👀 Preview
