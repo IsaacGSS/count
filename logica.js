@@ -19,17 +19,20 @@ function tame() {
 }
 
 
-// buttom🔢
+// Buttom🔢
+/// button increase [➕] 
 function mais() {
   document.getElementById('contagem').innerHTML = numero = numero + 1
   
 }
 
+/// button decrease [➖]
 function menos() {
   document.getElementById('contagem').innerHTML = numero = numero - 1
 
 }
 
+/// button reset [🔁]
 function reset() {
   document.getElementById('contagem').innerHTML = numero = 0
 
