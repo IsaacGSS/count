@@ -1,4 +1,4 @@
-# 🔢 Counter
+# 🔢 Count
 <q>um contador que alteram a cor com base em números positivos ou negativos que são exibidos</q>
 ## 📜 Status
 > Status: Finished
